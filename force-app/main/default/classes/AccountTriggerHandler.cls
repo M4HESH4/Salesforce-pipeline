@@ -19,6 +19,7 @@ public class AccountTriggerHandler {
 	@AuraEnabled(cacheable=true)
 	public static void doSomething() {
 		// Your logic here
+		// comment 2
 	}
 
 }
