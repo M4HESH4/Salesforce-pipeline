@@ -14,7 +14,7 @@
  * ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
  */
 
-public class AccountTriggerHandler {
+publi class AccountTriggerHandler {
 
 	@AuraEnabled(cacheable=true)
 	public static void doSomething() {
